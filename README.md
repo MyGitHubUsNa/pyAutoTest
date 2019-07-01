@@ -29,6 +29,14 @@ rerun = "3"
 
 # 运行测试用例的目录或文件
 cases_path = "./test_dir/"
+
+# 配置driver
+    if driver_type == "chrome":
+        # 本地chrome浏览器
+        option = webdriver.ChromeOptions()
+        option.add_argument("disable-infobars")		# 去除浏览器受控制的提醒
+        path = "【chromedriver.exe所在的绝对路径】"
+        driver = webdriver.Chrome(options=option, executable_path=path)
 ```
 
 #### 运行：
