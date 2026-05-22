@@ -1,5 +1,5 @@
 selenium==3.141.0
-pytest==4.3.0
+pytest==9.0.3
 pytest-html==1.20.0
 pytest-rerunfailures==6.0
 click==6.7
